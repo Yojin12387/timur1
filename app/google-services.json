@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "679791890346",
+    "project_id": "timur3-173e9",
+    "storage_bucket": "timur3-173e9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:679791890346:android:968386d56287d02ecfe5d3",
+        "android_client_info": {
+          "package_name": "com.example.timur3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqYWMgcf_wkhdq1-Ws9jpzpE60Jfj3Gew"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
