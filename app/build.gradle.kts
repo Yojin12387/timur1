@@ -60,6 +60,7 @@ dependencies {
     implementation("com.google.firebase:firebase-auth") // Используйте BOM для управления версиями
     implementation("org.jetbrains.kotlin:kotlin-stdlib:1.9.0")
     implementation ("androidx.navigation:navigation-compose:2.5.3")
+    implementation ("androidx.navigation:navigation-compose:2.4.0")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
