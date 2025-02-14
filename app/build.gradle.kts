@@ -59,8 +59,14 @@ dependencies {
     implementation(platform("com.google.firebase:firebase-bom:32.0.0")) // Используйте последнюю версию BOM
     implementation("com.google.firebase:firebase-auth") // Используйте BOM для управления версиями
     implementation("org.jetbrains.kotlin:kotlin-stdlib:1.9.0")
-    implementation ("androidx.navigation:navigation-compose:2.5.3")
-    implementation ("androidx.navigation:navigation-compose:2.4.0")
+
+    // Убедитесь, что вы используете одну версию библиотеки navigation-compose
+    implementation("androidx.navigation:navigation-compose:2.5.3")
+
+    implementation("io.coil-kt:coil-compose:2.2.2")
+    implementation("androidx.compose.ui:ui:1.5.0") // Проверьте последнюю версию
+    implementation("androidx.compose.material3:material3:1.1.0")
+    implementation("androidx.compose.ui:ui-tooling-preview:1.5.0")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
@@ -70,6 +76,10 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.firebase.database.ktx)
+    implementation(libs.firebase.storage.ktx)
+    implementation(libs.firebase.database)
+    implementation(libs.firebase.firestore.ktx)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
